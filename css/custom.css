@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.navbar img{
+  height: 3.5em;
+}
+
+.feature {
+  background-color: #77f2a1;
+  width: 100%;
+  height: auto;
+}
+.feature h1{
+  font-size: 38px;
+  padding-left: 32px;
+  padding-top: 30px;
+  color: #1F2B37;
+}
+.feature p{
+  padding-left: 32px;
+  color: #1F2B37;
+  font-size: 24px;
+}
+.btn-container{
+  padding-left: 32px;
+  padding-bottom: 30px;
+}
+.engage{
+  background: #3FA2F7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+video {
+  width: 50%;
+  height: auto;
+  border-style: solid;
+}
+.video-player{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.content h1{
+  font-size: 38px;
+  padding-left: 32px;
+  padding-top: 30px;
+  color: #1F2B37;
+}
+.content p{
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #1F2B37;
+  font-size: 24px;
+}
+.flex-container {
+  height: 70vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.flex-container > div{
+  margin: 20px;
+}
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  cursor: pointer;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  cursor: pointer;
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px){
+  .feature h1{
+    font-size: 30px;
+  }
+  .feature p{
+    font-size: 18px;
+  }
+  .content h1{
+    font-size: 30px;
+  }
+  .content p{
+    font-size: 18px;
+  }
+  .flex-items img{
+    width: 100%;
+    height: auto;
+  }
+}
