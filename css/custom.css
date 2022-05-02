@@ -60,6 +60,7 @@ video {
   color: #1F2B37;
   font-size: 24px;
 }
+
 .flex-container {
   height: 50%;
   padding: 20px;
@@ -132,6 +133,13 @@ video {
   margin-right: 15px;
 }
 
+.links{
+  padding-left: 32px;
+}
+.links a{
+  color: #1F2B37;
+  
+}
 footer {
   position: fixed;
   left: 0;
