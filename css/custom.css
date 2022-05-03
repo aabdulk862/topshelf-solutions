@@ -75,8 +75,8 @@ video {
   border-style: solid;
 }
 .video-player{
-  padding-top: 50px;
   padding-bottom: 100px;
+ 
   display: flex;
   justify-content: center;
   
@@ -174,7 +174,10 @@ video {
   color: #1F2B37;
 }
 .container{
+  padding-top: 30px;
   padding-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
 
 }
 
