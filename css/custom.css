@@ -166,16 +166,22 @@ video {
   font-size: 20px;
   margin-right: 15px;
 }
-
+.map-container{
+  padding-left: 42px;
+}
+.mapouter{
+  padding-left: 42px;
+  padding-bottom: 100px;
+}
 .links{
   padding-left: 32px;
 }
 .links a{
   color: #1F2B37;
 }
-.container{
+.form-container{
   padding-top: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
 
@@ -231,5 +237,8 @@ footer {
   }
   .flex-container > div{
     margin: 20px;
+  }
+  .mapouter{
+
   }
 }
